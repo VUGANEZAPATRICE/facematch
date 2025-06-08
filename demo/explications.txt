@@ -1,0 +1,34 @@
+VGG face: VGG face archetecture: is a model=>we can use that for extracting features
+you can save this algorithm to detect gender,ethnicity,hair color, complexion,facial hair style
+or amd age.
+#creating an environment not in c
+conda create --prefix ./env -y => -y because it is in one time=directly
+activate that environment
+
+1. Create recommender txt file that contains all required files
+
+touch requirements.txt  /batch terminal
+mtcnn==0.1.0 : It is a face detection and alignment using multi-task cascaded Convolutional Network(MTCNN)
+
+Creating other file setup.py=>because we need local package(not to publish) but it will help to keep some utility files
+in setup, name ="src"=> this folder will keep all utility tools
+
+=mkdir src
+=touch __init__.py
+=mkdir src/utils
+=touch src/utils/__init__.py
+=touch src/utils/all_utils.py
+touch params.yaml
+mkdir config
+touch config/config.yaml
+
+Moving the file into src folder
+
+mv 14_generate_img_pkl.py(name of the file) /src
+
+CONFIGURING: Whatever I will generete will be inside artifacts
+
+
+===========================================================================================================
+
+
