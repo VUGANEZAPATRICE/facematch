@@ -6,4 +6,5 @@ opencv-python
 scikit-learn
 tqdm
 bing-image-downloader
+keras-vggface==0.6
 
