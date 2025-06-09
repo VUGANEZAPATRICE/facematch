@@ -1,5 +1,5 @@
 streamlit==1.25.0
-tensorflow==2.16.1
+tensorflow==2.11.0
 #keras==2.16.0
 mtcnn-opencv==1.0.2
 opencv-python
