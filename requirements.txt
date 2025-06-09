@@ -1,6 +1,6 @@
 streamlit==1.25.0
 tensorflow==2.16.1
-keras==2.16.0
+#keras==2.16.0
 mtcnn-opencv==0.1.0
 opencv-python
 scikit-learn
